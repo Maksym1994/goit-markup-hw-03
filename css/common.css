@@ -1,0 +1,142 @@
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --text-white: #ffffff;
+  --accent-test-color: #2196f3;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.14;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-test-color);
+}
+
+.logo span {
+  color: var(--accent-test-color);
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.container.nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--primary-text-color);
+}
+
+.panel-info {
+  display: flex;
+  margin-left: auto;
+}
+
+.panel-info .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.panel-info .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-test-color);
+}
+
+.page-footer {
+  background-color: #2f303a;
+}
+
+.page-footer .logo {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: var(--text-white);
+}
+
+.page-footer .logo:hover,
+.page-footer .logo:focus {
+  color: var(--accent-test-color);
+}
+
+.page-footer address {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address {
+  margin-top: 9px;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.page-footer .text {
+  color: var(--text-white);
+}
+
+.page-footer p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.address .mail {
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+
+.address .tel {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}

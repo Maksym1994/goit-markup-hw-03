@@ -1,0 +1,160 @@
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --text-white: #ffffff;
+  --accent-test-color: #2196f3;
+}
+
+.hero {
+  background: #2f303a;
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-white);
+
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-img {
+  display: block;
+  max-width: 100%;
+}
+
+.section.no-padding {
+  padding-top: 0;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.section-list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.section-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--primary-text-color);
+
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.features-list {
+  display: flex;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.features-list .item {
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+}
+
+.features-list .item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 32px;
+  text-decoration: none;
+  border-radius: 4px;
+  color: var(--text-white);
+  background-color: var(--accent-test-color);
+}
+
+.features-list .text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--text-color);
+}
+
+.team-list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-list .item {
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  background-color: var(--text-white);
+}
+
+.team-list .title {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+.team-list .text {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: var(--text-color);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+}
